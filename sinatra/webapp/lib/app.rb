@@ -10,7 +10,7 @@ class App < Sinatra::Application
   set :bind, '0.0.0.0'
 
   get '/' do
-    "<h1>DockerBook Test Sinatra app</h1>"
+    "<h1>Docker Sinatra</h1>"
   end
 
   get '/json' do
